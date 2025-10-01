@@ -1,0 +1,6 @@
+@use './variables';
+
+html,
+body {
+  background: var(--body-color);
+}

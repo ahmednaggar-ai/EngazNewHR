@@ -1,0 +1,14 @@
+:root {
+  // Light theme colors
+  --white: #ffffff;
+  --black: #000000;
+
+  // Body
+  --body-color: var(--white);
+}
+
+// Dark theme overrides
+.dark-mode {
+  // Body
+  --body-color: var(--black);
+}
