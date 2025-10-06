@@ -1,14 +1,16 @@
 :root {
   // Light theme colors
   --white: #ffffff;
-  --black: #000000;
+  --black: #212121;
 
   // Body
   --body-color: var(--white);
+  --text-color: var(--black);
 }
 
 // Dark theme overrides
 .dark-mode {
   // Body
   --body-color: var(--black);
+  --text-color: var(--white);
 }
